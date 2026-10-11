@@ -6,7 +6,7 @@
 
 ## 怎麼更新
 
-需要字在 1.1.0 以上的電腦版（macOS、Windows）。
+需要字在 1.1.0 以上的電腦版（macOS、Windows、Linux）。
 
 - **在字在裡更新**：在「字在設定」的首頁按「檢查更新」；有新的資料更新檔時，按「下載並看改了哪些字」，看過再按「套用」。
 - **自己下載**：從 [Releases](https://github.com/zizai-ime/zizai-data/releases) 下載 `.zizaipack` ，在首頁按「匯入資料更新檔…」，或在 Finder、檔案總管裡按兩下這個檔。
