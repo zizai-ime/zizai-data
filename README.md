@@ -2,7 +2,7 @@
 
 [字在（ZiZai）](https://github.com/zizai-ime/zizai-ime)是為正體中文（繁體）設計的中文輸入法。這裡發布它的資料更新檔（ `.zizaipack` ）：更新過的字根表等資料，套用後不必重新安裝字在。
 
-最新的資料版本是 2026-10-18.1，改了哪些字與 SHA-256 見 [字在資料 2026-10-18.1](https://github.com/zizai-ime/zizai-data/releases/tag/2026-10-18.1)。
+最新的資料版本是 2026-10-28.1，改了哪些字與 SHA-256 見 [字在資料 2026-10-28.1](https://github.com/zizai-ime/zizai-data/releases/tag/2026-10-28.1)。
 
 ## 怎麼更新
 
@@ -22,6 +22,7 @@ Release 的標籤就是資料版本，例如 `2026-11-01.1` 。
 | `zizai-data-<資料版本>.zizaipack` | 資料更新檔 |
 | `zizai-data-stable.zizaipack` | 同一個資料更新檔，檔名固定，字在用它下載最新版 |
 | `.sha256` | 上面兩個檔案各自的 SHA-256 |
+| `data-catalog.bin` | 資料清單，列出經清單發布的資料檔與版本，給字在 1.3.0 起的版本檢查更新用；1.3.0 這版清單沒有附加的資料檔，字根表仍用 `zizai-data-stable.zizaipack` |
 
 Release 說明會列出這一版改了輸入碼的字（只列字，不列碼）。
 
